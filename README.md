@@ -10,13 +10,12 @@
 
 - **鼠标控制**：右手追踪控制鼠标移动，捏指（拇指与食指并拢）触发点击/长按
 - **键盘控制**：
-  - 模式1：左手控制方向键（上下左右）
+  - 模式1：左手控制方向键（食指上下左右指示方向）
   - 模式2：左手捏指触发 F 键，右手捏指触发 J 键（适合游戏/快捷操作）
 - **操作优化**：
   - 自适应平滑过滤（快速移动时弱平滑，静止时强平滑）
   - 120Hz 插帧算法，减少鼠标抖动，提升跟手度
-- **可视化配置**：内置 Tkinter 图形界面，支持实时调整参数
-- **灵活适配**：支持多摄像头切换，可自定义各项灵敏度和触发阈值
+- **可视化配置**：内置图形界面，支持调整参数
 
 ## 📋 环境要求
 
@@ -29,7 +28,7 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/your-username/GestureControl.git
+git clone https://github.com/baiheko/Gesture-keyboard-and-mouse-control-based-on-mediapipe
 cd GestureControl
 ```
 
@@ -117,10 +116,8 @@ class Config:
 - 调整摄像头角度，让手部完全进入画面
 
 ### 3. 鼠标移动卡顿/抖动
-- 增大「平滑度」参数
-- 降低「鼠标速度」，提升操作精度
-- 确保摄像头帧率稳定（建议640x480分辨率）
-
+- 碍于摄像头，CPU等硬件限制，属于正常现象
+  
 ### 4. 键盘/鼠标无响应
 - 检查是否已按 Q 键启用手势控制（屏幕显示 Control: ON）
 - 确认手部左右识别正确（程序会区分左右手功能）
@@ -144,16 +141,5 @@ GestureControl/
 - [MediaPipe](https://mediapipe.dev/)：谷歌开源的手部追踪库
 - [OpenCV](https://opencv.org/)：计算机视觉处理库
 - [PyAutoGUI](https://pyautogui.readthedocs.io/)：跨平台键鼠控制库
-
-## 📞 贡献
-
-欢迎提交 Issue 或 Pull Request 改进项目：
-1. Fork 本仓库
-2. 创建特性分支：`git checkout -b feature/amazing-feature`
-3. 提交修改：`git commit -m 'Add some amazing feature'`
-4. 推送分支：`git push origin feature/amazing-feature`
-5. 打开 Pull Request
-
----
 
 如果觉得项目有用，欢迎点亮 ⭐️ 支持一下！
