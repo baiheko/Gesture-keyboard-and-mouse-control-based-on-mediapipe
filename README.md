@@ -48,6 +48,9 @@ pip install -r requirements.txt
 python main.py
 ```
 
+### 您也可以在这里下载打包好的可执行文件
+[百度网盘](https://pan.baidu.com/s/1GeEJSd1gqhzFttzivxVcAg?pwd=8w89)
+
 ## 📖 使用说明
 
 ### 第一步：参数配置
