@@ -4,6 +4,7 @@
 ![Dependencies](https://img.shields.io/badge/Dependencies-MediaPipe%20%7C%20OpenCV%20%7C%20PyAutoGUI-orange)
 
 一个基于 MediaPipe 和 OpenCV 开发的手势控制工具，支持通过手部动作控制鼠标移动、点击/长按，以及键盘方向键/F/J 键操作。内置可视化配置界面，可自定义灵敏度、阈值等参数，适配不同用户的使用习惯。
+
 项目目前只是学期作业水平，并未健壮到商业化使用程度，仅供娱乐 ^_^
 
 ## 🌟 功能特点
