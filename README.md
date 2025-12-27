@@ -97,7 +97,7 @@ class Config:
     camera_index = 1          # 摄像头索引
     mouse_speed = 1.2         # 鼠标灵敏度
     smoothing = 0.7           # 移动平滑度（0~1）
-    fist_threshold = 0.0025   # 捏指判定阈值（越小越灵敏）
+    fist_threshold = 0.0025   # 捏指判定阈值（越大越灵敏）
     direction_threshold = 0.1 # 方向键触发阈值
     interp_hz = 120           # 插帧频率
     follow_gain = 1.0         # 跟手度（0~1）
@@ -112,7 +112,7 @@ class Config:
 - 确保安装目录内无中文
 - 检查摄像头索引是否正确（尝试切换0/1/2）
 - 确保摄像头未被其他程序占用
-- 验证依赖安装：`pip install opencv-python mediapipe`
+- 验证依赖安装：`pip install opencv-python mediapipe`，建议使用打包的版本
 
 ### 2. 手势识别不灵敏
 - 增大「捏指阈值」参数
